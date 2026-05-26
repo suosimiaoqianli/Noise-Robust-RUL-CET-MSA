@@ -1,0 +1,33 @@
+dataset:
+  name: FD003
+  data_dir: data/CMAPSS
+  processed_dir: data/processed
+  window_length: 30
+  stride: 1
+  rul_cap: 150
+  sensors: screened_17
+
+model:
+  name: CET-MSA
+  input_dim: 17
+  hidden_dim: 50
+  heads: 8
+  tlce_groups: 5
+  pyramidal_ratio: 2
+  dropout: 0.2
+
+training:
+  seed: 0
+  epochs: 50
+  batch_size: 100
+  eval_batch_size: 64
+  lr: 0.001
+  weight_decay: 0.0001
+  patience: 10
+  optimizer: adam
+  scheduler: cosine
+
+evaluation:
+  metrics:
+    - score
+    - rmse
