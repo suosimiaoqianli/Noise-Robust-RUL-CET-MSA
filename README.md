@@ -3,6 +3,8 @@
 This repository provides the replication package for the paper:
 
 **Noise-Robust Remaining Useful Life Prediction for Intelligent Condition Monitoring via Convolutionally-Enhanced Temporal Self-Attention**
+Please cite the paper when using this code:
+Wang, Y., Zhang, J. & Qin, Y. Noise-robust remaining useful life prediction for intelligent condition monitoring via convolutionally-enhanced temporal self-attention. J Intell Manuf (2026). https://doi.org/10.1007/s10845-026-02895-3
 
 ## Overview
 
