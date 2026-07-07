@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Local C-MAPSS data and generated artifacts
+/data/
+/datasets/
+/checkpoints/
+/loss_plots/
+/outputs/
+results/local/
+
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+
+FD*_result.txt
+FD*_transfer*.txt
+fig*.png
+fig*.pdf
+.idea/
